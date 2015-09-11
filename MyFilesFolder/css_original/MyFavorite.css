@@ -1,0 +1,134 @@
+﻿body
+{
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(247,247,247);
+}
+
+.tableLoading
+{   
+    background:url("../../Images/Loading2.gif") rgba(255,255,255,0.7) no-repeat center;
+    position:absolute;
+    left:0px;
+    height:100%;
+    width: 100%;
+    top:60px;
+    z-index:2;
+}
+
+#saveDiv{
+      width:80em;
+   margin:50px auto;
+}
+
+.clear{
+    clear:both;
+}
+
+a img
+{
+    border: 0px;
+}
+
+.popupContent{
+    padding:30px;
+    text-align:left;
+}
+
+.divButton{
+    background:#CCC;
+    padding:1px 2px 4px 2px;
+    width:100px;
+    display:inline-block;
+    box-shadow:0px 1px 2px rgba(100,100,100,0.8);
+    text-align:center;
+}
+.divButton:hover{
+    cursor:pointer;
+    background:#000;
+    color:#FFF;
+}
+
+.popupList{
+    text-align:left;
+    padding:0px 25px;
+    width:100%;
+}
+
+.saveItem{
+    width:200px;
+    height:130px;
+    background:#2f8f9d;
+    color:#FFF;
+    display:inline-block;
+    margin:15px 5px;
+    text-align:center;
+    position:relative;
+    background:url('../../Images/tic-Small.png') center center no-repeat;
+    box-shadow:0px 2px 6px rgba(100,100,100,0.3);
+}
+
+.mydigit{
+    background:url('../../Images/mydigit-Small.png') center center no-repeat;
+}
+
+.digit{
+    background:url('../../Images/digit-Small.png') center center no-repeat;
+}
+
+.saveItem a{
+    color:#FFF;
+}
+
+a.favoriteName{
+    background:rgba(33,33,33,.5);
+    display:block;
+    line-height:130px;
+}
+
+.favoriteTime{
+    color:#009f84;
+    background:#FFF;
+    width:190px;
+    padding:0px;
+    font-size:12px;
+    font-style:italic;
+}
+
+.saveItem .closeButton{
+    top:-5px;
+    right:5px;
+    position:absolute;
+    color:#FFF;
+    font-size:24px;
+}
+
+.saveItem span{
+    display:inline-block;
+    vertical-align:middle;
+    line-height:normal;
+    word-break:break-all;
+    word-wrap:break-word;
+    padding:5px;
+}
+
+
+    .closeButton:hover {
+        cursor:pointer;
+        color:#000;
+    }
+
+    /*.closeButton {
+
+}
+    .closeButton{
+    position:absolute;
+    font-size:16px;
+    color:#888;
+    padding:0px 5px;
+    top:8px;
+    width: 16px;
+	height: 16px;
+}*/
+
+

@@ -1,0 +1,47 @@
+﻿.tooltips div{
+    background:#F8F8F8;
+    border: 1px solid rgb(0, 114, 198);
+    margin-left:20px;
+    margin-top:10px;
+    color: black;
+    font-family:Segoe UI;
+    font-weight:normal;
+    font-size:12px;
+    max-width:1000px;
+    position:absolute;
+    display:none;
+}
+.tooltips table
+{
+    width:300px;
+    }
+.tooltips td
+{
+    padding-top:10px;
+    max-width:300px;
+    line-height:20px;
+    padding:0;
+    margin:0;
+    text-align:left;
+    background-color:White;
+    color:Black; 
+    font-weight:normal;
+    font-size:12px;
+    }
+
+.tooltips span:hover
+{
+    background-color:rgb(207, 234, 243);
+    }
+    
+#TICReportTable .tooltips span:hover
+{
+    background-color:white;
+    color:Black;
+    }
+#headerTable .tooltips span:hover
+{
+    background-color:white;
+    color:Black;
+    }
+

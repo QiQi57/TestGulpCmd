@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#delete").click(function(){alert("fdafa");var t=$(this).closest(".item");$.confirm({title:"Delete Confirmation",message:"You are about to delete this item. <br />It cannot be restored at a later time! Continue?",buttons:{Yes:{"class":"blue",action:function(){t.slideUp()}},No:{"class":"gray",action:function(){}}}})})});
